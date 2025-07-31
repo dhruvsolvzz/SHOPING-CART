@@ -19,6 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "concurrently": "^8.2.0"
+    "concurrently": "^8.2.0",
+    "mongodb": "^6.18.0"
   }
 }
