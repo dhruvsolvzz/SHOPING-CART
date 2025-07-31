@@ -2,10 +2,6 @@
 
 A full-stack shopping cart application built with **React** (frontend) and **Node.js/Express/MongoDB** (backend).
 
-## 🚀 Live Demo
-
-[Add your deployed application URL here]
-
 ## 📋 Features
 
 - **User Authentication**: Register and login with JWT token-based authentication
