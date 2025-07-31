@@ -1,0 +1,24 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "Full-stack shopping cart application",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && go run server.go",
+    "client": "cd client && npm start",
+    "install-deps": "npm install && cd client && npm install"
+  },
+  "keywords": [
+    "shopping-cart",
+    "react",
+    "golang",
+    "gin",
+    "gorm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
